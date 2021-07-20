@@ -1,0 +1,182 @@
+.postback{
+	background-size: cover;
+	position: fixed;
+	min-height: 200px;
+	width: 100vw;
+	top: 0px;
+	z-index: -10;
+	filter: blur(2px) grayscale(70%) brightness(50%) ;
+}
+
+.back-pattern{
+	padding: 30px 0;
+	box-sizing: border-box;
+	margin-bottom: -30px;
+	position: relative;
+	min-height: 80vh;
+	width: 100%;
+	background-image: radial-gradient(#000 1px, transparent 1px);
+	background-size: 3px 3px;
+}
+
+.postcont{
+	margin-bottom: 30px;
+	width: 700px;
+	min-height: 500px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	
+	background: #fff;
+	text-align: left;
+	
+}
+
+.postcont ul{
+	margin: 20px 0;	
+}
+
+.postcont ul,li{
+	text-align: left;	
+}
+
+.postcont h2{
+	background: none;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	font-family: 'kmblight';
+	font-size: 22px;
+}
+
+.postcont h3{
+	background: none;
+	margin: 5px 0 20px 0;
+	color: #808080;
+	font-family: 'kmbreg';
+	font-size: 18px;
+}
+
+.postcont p{
+	background: none;
+	color: #000;
+	margin: 5px 0 5px 0;
+	padding: 0;
+	font-family: 'kmblight';
+	text-align: justify;
+	font-size: 16px;
+}
+
+.postcont .game{
+
+	margin: 0 0 15px 0;
+	font-family: 'kmbreg';
+	font-size: 22px;
+	width: fit-content;
+	color: #B33771;
+}
+
+.bid-form{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	padding: 0;
+	margin: 25px 0 10px 0;
+}
+
+.bid-form input{
+	position: relative;
+	height: 100%;
+	padding: 5px;
+	margin: 2px;
+	box-sizing: border-box;
+	
+	border-radius: 5px;
+}
+
+.inp-btn{
+	width: 120px;
+	border: 0px solid #444444;
+    background: #e5aeff;
+    transition: .2s;
+}
+
+.inp-btn:hover{
+	color: #fff;
+    background: #6D214F;
+}
+
+.s{
+	width: 120px;
+	border: 2px solid #000;
+}
+
+.l{
+	width: 60%;
+	border: 2px solid #000;
+}
+
+.bid-comment-body{
+	position: relative;
+	margin-top: 30px;
+}
+
+.bid-comment{
+	position: relative;
+	width: 100%;
+	min-height: 50px;
+	padding: 4px;
+	box-sizing: border-box;
+	background: #f0f0f0;
+	border-bottom: 2px solid #fff;
+	transition: .2s;
+}
+
+.bid-comment:hover{
+	padding: 6px 4px;
+	background: #f6f6f6;
+}
+
+.com-name{
+	color: #808080;
+	font-size: 12px;
+}
+
+.com-comment{
+	position: relative;
+	width: 80%
+}
+
+.com-comment-table{
+	position: relative;
+	width: 100%;
+}
+
+.com-bid{
+	position: relative;
+	font-family: 'kmbbold';
+	width: 20%
+}
+
+.post-Bottons{
+	width: 80px;
+	height: 250px;
+}
+
+.delete{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	font-size: 25px;
+	background: #fff;
+	color: #2d3436;
+	border: none;
+	border-radius: 50px;
+	transition: .3s;
+}
+
+.delete:hover{
+	background: #4834d4;
+	color: #fff;
+}

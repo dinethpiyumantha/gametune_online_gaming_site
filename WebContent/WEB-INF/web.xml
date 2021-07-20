@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         <servlet>
+			<servlet-name>BidPostInsert</servlet-name>
+			<servlet-class>com.bid.pack.BidPostInsert</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>BidPostInsert</servlet-name>
+			<url-pattern>/bpinsert</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>OpenBidPost</servlet-name>
+			<servlet-class>com.bid.pack.OpenBidPost</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>OpenBidPost</servlet-name>
+			<url-pattern>/openbidpost</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>LoginCheck</servlet-name>
+			<servlet-class>com.bid.pack.LoginCheck</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>LoginCheck</servlet-name>
+			<url-pattern>/logincheck</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>Logout</servlet-name>
+			<servlet-class>com.bid.pack.Logout</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>Logout</servlet-name>
+			<url-pattern>/logout</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>InsertBid</servlet-name>
+			<servlet-class>com.bid.pack.InsertBid</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>InsertBid</servlet-name>
+			<url-pattern>/insertbid</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>DeletePost</servlet-name>
+			<servlet-class>com.bid.pack.DeletePost</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>DeletePost</servlet-name>
+			<url-pattern>/deletepost</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>UpdateBid</servlet-name>
+			<servlet-class>com.bid.pack.UpdateBid</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>UpdateBid</servlet-name>
+			<url-pattern>/updatebid</url-pattern>
+		</servlet-mapping>
+</web-app>

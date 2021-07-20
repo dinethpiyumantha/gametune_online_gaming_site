@@ -1,0 +1,127 @@
+.card-thumb{
+	position: relative;
+	display: flex;
+	margin: 5px;
+	width: 550px;
+	height: 250px;
+	border-radius: 10px;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: -1px 1px 15px 0px rgba(0,0,0,0.25);
+	transition: .2s;
+}
+
+.card-thumb:hover{
+	/*background: #f3f3f3;*/
+	transform: scale(1.03);
+}
+
+.card-img{
+	position: relative;
+	width: 160px;
+	height: auto;
+	overflow: hidden;
+}
+
+.card-img img{
+	height: 100%;
+}
+
+.card-icon img{
+	position: relative;
+	height: 100%;
+}
+
+.card-icon{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 140px;
+	top: 125px;
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	border-radius: 80px;
+	border: 5px solid #fff;
+	z-index: 800;
+	overflow: hidden;
+	transition: .5s;
+}
+
+.card-icon:hover{
+	width: 110px;
+	height: 110px;
+}
+
+.card-content{
+	position: relative;
+	padding: 20px 20px 20px 55px;
+	width: 390px;
+	height: auto;
+}
+
+.card-content pre{
+    position: relative;
+    top: -10px;
+    right: 10px;
+    transform: translate(0%,0%);
+    display: flex;
+    background: #ececec;
+    border: 1px solid #d1d1d1;
+    text-align: right;
+    font-size: 13px;
+    margin: 3px;
+    color: #444444;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 4px 2px 4px;
+    line-height: 13px;
+}
+
+.card-title{
+	font-size: 18px;
+	font-family: 'kmbbold';
+}
+
+.card-subtitle{
+	font-size: 14px;
+	font-family: 'kmbreg';
+}
+
+.card-spec{
+	font-size: 14px;
+	margin-top: 3px;
+	font-family: 'kmbreg';
+	line-height: 15px;
+}
+
+.card-disc{
+	position: relative;
+	padding: 6px 0 10px 0;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 15px;
+	font-family: 'kmbreg';
+	width: 100%;
+	height: 36px;
+	overflow: hidden;
+	max-width: 100ch;
+	color: #c0c0c0;
+}
+
+.bid-button{
+	position: absolute;
+	padding: 12px; 
+	border: 0;
+	border-radius: 5px;
+	font-family: 'kmbbold';
+	color: #fff;
+	background: #182C61;
+	bottom: 10px;
+	right: 10px;
+	transition: .2s;
+}
+
+.bid-button:hover{
+	background: #6D214F;
+}
+
